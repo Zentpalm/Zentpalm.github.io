@@ -1,0 +1,56 @@
+
+body {
+    margin: 0px;
+    /* background-color: rgb(101, 106, 246); */
+    border: 5px solid #4756ff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blocktop {
+    background-color: black;
+    /* width: 100vw; */
+    /* height: 7vw;     */
+    display: flex;
+    justify-content: center;
+    border: 5px solid #4756ff;
+}
+.botton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+.messgae {
+    color: white;
+    padding: 28px;
+    font-size: 27px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.messgae:hover {
+    color: aquamarine ;
+    background-color:deepskyblue;
+}
+.foot {
+    display: flex;
+    background-color: black;
+    border: 5px solid #4756ff;
+}
+.messgae1 {
+    color: white;
+    padding: 28px;
+    font-size: 27px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
